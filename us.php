@@ -5,17 +5,22 @@
     <meta charset="utf-8">
     <title>CENTRO DE PREPARACION DE EXAMENES-CONTACTANOS</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
   </head>
   <body>
     <section class="container">
       <header>
+        <img src="images/golden_phi.jpg" alt="CPE_badge">
+
     <h1>CENTRO DE PREPARACION DE EXAMENES</h1>
+<nav>
   <ul>
     <li><a href="formulario.php">Contactanos</a></li>
     <li><a href="us.php">Nosotros</a></li>
     <li><a href="novedades.php">Novedades</a></li>
-    <li><a href="faq.php">FAQ's</a></li>
   </ul>
+</nav>
       </header>
 <section>
   <h2>TE CONTAMOS QUIENES SOMOS</h2>
