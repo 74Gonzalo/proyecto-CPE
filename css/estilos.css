@@ -1,11 +1,20 @@
 *{
   box-sizing: border-box;
 }
+
+header{
+  
+  background-color: green;
+}
+
 header li{
 display: inline;
+
 }
+
 header a{
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 h1, h2 {
