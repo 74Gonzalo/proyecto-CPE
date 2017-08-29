@@ -5,17 +5,21 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/estilos.css">
     <title>CENTRO DE PREPARACION DE EXAMENES</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
   </head>
   <body>
     <section class="container">
-        <header>
+        <header class="header">
+      <img src="images/golden_phi.jpg" alt="CPE_badge">
+
       <h1>CENTRO DE PREPARACION DE EXAMENES</h1>
+
   <nav>
     <ul>
       <li><a href="formulario.php"target="new">Contactanos</a></li>
       <li><a href="us.php"target="new">Nosotros</a></li>
       <li><a href="novedades.php"target="new">Novedades</a></li>
-      <li><a href="faq.php"target="new">FAQ's</a></li>
     </ul>
   </nav>
         </header>
