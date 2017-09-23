@@ -48,7 +48,10 @@ if(!isset($errores)>0){
   <head>
     <meta charset="utf-8">
     <title>CENTRO DE PREPARACION DE EXAMENES-CONTACTANOS</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width">
+
   </head>
   <body>
     <section class="container">
@@ -61,7 +64,6 @@ if(!isset($errores)>0){
     <li><a href="formulario.php">Contactanos</a></li>
     <li><a href="us.php">Nosotros</a></li>
     <li><a href="novedades.php">Novedades</a></li>
-    <li><a href="faq.php">FAQ's</a></li>
   </ul>
 </nav>
 
@@ -73,20 +75,30 @@ if(!isset($errores)>0){
   <?php }?>
 </ul>
   <?php } ?>
-
-  <p>CONTACTANOS</p>
-<form class="" action="formulario.php" method="post" enctype="multipart/form-data">
+<section class="contacto">
+  <h2>CONTACTANOS</h2>
+    <p>mail: <a href="mailto:consultas.cpe@gmail.com">consultas.cpe@gmail.com</a></p>
+    <article class="datos">
+      <img src="images/whatsapp.png" alt="whatsapp"
+      width="50px"
+      height="50px">
+      <p>    011-3766-5481</p>
+    </article>
+</section>
+<br>
+<article class="form">
+  <form class="" action="formulario.php" method="post" enctype="multipart/form-data">
 
   <fieldset class="formulario">
-      <input type="text" name="Nombre" value="" placeholder="Nombre">
+      <input class="data"  type="text" name="Nombre" value="" placeholder="Nombre">
   <br>
-      <input type="text" name="Apellido" value="" placeholder="Apellido">
+      <input class="data" type="text" name="Apellido" value="" placeholder="Apellido">
   <br>
-      <input type="text" name="mail" value=""placeholder="Correo electrónico">
+      <input class="data" type="text" name="mail" value=""placeholder="Correo electrónico">
   <br>
-      <input type="text" name="celular" value="" placeholder="Celular">
+      <input class="data" type="text" name="celular" value="" placeholder="Celular">
   <br>
-  <fieldset>
+  <fieldset class="materias">
       <label >Materias</label>
   <br>
       <label>Matemáticas</label><input type="checkbox" name="materia[]" value="matematicas">
@@ -101,10 +113,12 @@ if(!isset($errores)>0){
         <button type="submit" name="button">Enviar</button>
     </fieldset>
 </form>
-    <a href="index.php">VOLVER</a>
+  <br>
+    <button class="back" type="button" name="volver"><a href="index.php">VOLVER</a></button>
 </article>
   <footer>
 <p>Desarrollado por Yabin Web </p>
+<br>
 <br>
 Copyright (c) 2017 Copyright Holder All Rights Reserved.
 

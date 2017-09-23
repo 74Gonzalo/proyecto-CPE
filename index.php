@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>CENTRO DE PREPARACION DE EXAMENES</title>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
 
   </head>
   <body>
@@ -17,16 +18,20 @@
 
   <nav>
     <ul>
-      <li><a href="formulario.php"target="new">Contactanos</a></li>
-      <li><a href="us.php"target="new">Nosotros</a></li>
-      <li><a href="novedades.php"target="new">Novedades</a></li>
+      <li><a href="us.php">Nosotros</a></li>
+      <li><a href="formulario.php">Contactanos</a></li>
+      <li><a href="novedades.php">Novedades</a></li>
     </ul>
   </nav>
         </header>
     <section class="contenido">
-<h2>10 Años preparando alumnos</h2>
+      <h2>Si buscás clases de apoyo</h2>
+        <p>Somos tu mejor opción para que apruebes tus exámenes de matemáticas, estadística, contabilidad!!
+          <br>
+        <p></p>
+<!-- <h2>10 Años preparando alumnos</h2>
 <p>Desde hace diez años estamos ayudando a alumnos a preparar sus exámenes de matemáticas, estadística, álgebra.
-Hemos desarrollado un método que te ayudará a aprender y aprobar tus exámenes</p>
+Hemos desarrollado un método que te ayudará a aprender y aprobar tus exámenes</p> -->
     </section>
         <footer>
 <p>Desarrollado por Yabin Web</p>

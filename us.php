@@ -6,6 +6,7 @@
     <title>CENTRO DE PREPARACION DE EXAMENES-CONTACTANOS</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
 
   </head>
   <body>
@@ -25,8 +26,10 @@
 <section>
   <h2>TE CONTAMOS QUIENES SOMOS</h2>
   <p>Hace diez años que nos dedicamos a preparar alumnos a superar sus exámenes, estamos especializados en Estadística, Contabilidad y Matemáticas</p>
+    <br>
+  <p>Nuestro método personalizado te ayuda a pasar tus exámenes muy bien preparado. </p>
 </section>
-  <a href="index.php">VOLVER</a>
+  <button class="back" type="button" name="volver"><a href="index.php">VOLVER</a></button>
   <footer>
 <p>Desarrollado por Yabin Web</p>
 <br>
