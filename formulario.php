@@ -1,4 +1,3 @@
-
 <?php
 
 require_once ("funciones.php");
@@ -41,9 +40,8 @@ if(!isset($errores)>0){
 if(!isset($errores)>0){
   $celular = $_POST["celular"];
 }
-
  ?>
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
