@@ -19,6 +19,8 @@ foreach ($info as $data => $values) {
   echo "Apellido: ";
   echo $values['apellido'];
   echo "<br>";
+  echo $values['mail'];
+  echo "<br>";
   echo "Celular: ";
   echo $values['celu'];
   echo "<br>";

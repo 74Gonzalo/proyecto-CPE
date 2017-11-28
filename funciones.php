@@ -30,6 +30,7 @@ function validarInformacion($informacion){
       if(strlen($celular)<10){
         $errores["celular"] = "Ingresá un celular válido";
       }
+    
           return $errores;
 }
 

@@ -24,12 +24,23 @@
 </nav>
       </header>
 <section>
+  <fieldset class="Text2">
+
   <h2>TE CONTAMOS QUIENES SOMOS</h2>
-  <p>Hace diez años que nos dedicamos a preparar alumnos a superar sus exámenes, estamos especializados en Estadística, Contabilidad y Matemáticas</p>
     <br>
-  <p>Nuestro método personalizado te ayuda a pasar tus exámenes muy bien preparado. </p>
+    <p>Somos profesionales y estudiantes de ciencias económicas apasionados
+    por enseñar</p>
+    <br>
+    <p>Llevamos casi diez años ayudando a aprobar exámenes, en los cuales
+      dearrollamos un método muy efectivo para prepararte para tus exámenes y te
+    brindamos atención personalizada</p>
+  <br>
+    <p>Y así llegar muy bien preparado a tus exámenes</p>
+    <button class="back" type="button" name="volver"><a href="index.php">VOLVER</a></button>
+
 </section>
-  <button class="back" type="button" name="volver"><a href="index.php">VOLVER</a></button>
+</fieldset>
+
   <footer>
 <p>Desarrollado por Yabin Web</p>
 <br>

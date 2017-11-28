@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+
+  background-color: #816;
+}
+
+header img{
+  relative position: left;
+  width: 75px;
+  display: inline;
+}
+
+header h1{
+margin-right:  20%;
+float: right;
+overflow: hidden;
+font-size: 18px;
+
+}
+
+header li{
+display: inline;
+/*margin: auto;*/
+background-color: beige;
+}
+
+nav{
+margin-left:  17%;
+}
+
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+ul {
+  margin: auto;
+}
+
+
+ header a{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+
+h1, h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+form{
+  width: 80%;
+  margin: auto;
+}
+
+.formulario{
+  background-color: orange;
+
+}
+
+p{
+  font-family: sans-serif;
+  /*margin: auto;
+  text-align: center;*/
+}
+
+
+.data{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-left: 12.5%;
+
+}
+
+textarea{
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.materias{
+  width: 75%;
+  margin-left: 12.5%;
+}
+@media (min-width:640px){
+
+
+
+
+
+}
+
+@media (min-width:1000px){
+
+  *{
+    box-sizing: border-box;
+  }
+
+  header{
+
+    background-color: green;
+    
+ }
+
+  header img{
+    relative position: left;
+    margin-left: 5%;
+  }
+
+  header h1{
+  float: right;
+  overflow: hidden;
+  margin-right: 37%;
+  font-size: 25px;
+  }
+
+  header li{
+  display: inline;
+  margin: auto;
+  background-color: beige;
+  }
+
+  nav{
+    margin-left: 35%;;
+  }
+
+  a{
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: white;
+  }
+
+  ul {
+    margin: auto;
+  }
+
+
+   header a{
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+
+
+  h1, h2 {
+    font-family: 'Shadows Into Light', cursive;
+  }
+/*archivo formulario.php*/
+.contacto{
+  display: block;
+  <article class="datos">
+  font-family: cursive;
+  width: 95%;
+  margin-left: 2.5% ;
+}
+.datos{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 99%;
+  margin-left: 0.5%;
+}
+
+.datos img{
+}
+.datos p{
+  width: 30%;
+  display: flex;
+  /*float:right;*/
+}
+  form{
+    width: 80%;
+    margin: auto;
+  }
+
+  .formulario{
+    background-color: orange;
+
+  }
+
+  p{
+    font-family: sans-serif;
+    /*margin: auto;
+    text-align: center;*/
+  }
+
+
+  .data{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-left: 12.5%;
+
+  }
+
+  textarea{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+  .materias{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+}
