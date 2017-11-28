@@ -3,21 +3,281 @@
 }
 
 header{
-  
+
+  /*background-color: #816;*/
   background-color: green;
+}
+
+header img{
+  relative position: left;
+  width: 75px;
+  display: inline;
+}
+
+
+header h1{
+margin-left: 15%;
+/*background-color: #ddd2;
+margin-left: 15%;*/
+/*float: right;
+overflow: hidden;*/
+font-size: 18px;
+
 }
 
 header li{
 display: inline;
-
+/*margin: auto;*/
+background-color: beige;
 }
 
-header a{
+nav{
+margin-left:  5%;
+}
+
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+ul {
+  margin: auto;
+}
+
+
+ header a{
   text-decoration: none;
   font-family: sans-serif;
 }
 
+
+
 h1, h2 {
   font-family: 'Shadows Into Light', cursive;
+}
 
+form{
+  width: 80%;
+  margin: auto;
+}
+
+.formulario{
+  background-color: orange;
+
+}
+
+p{
+  font-family: sans-serif;
+  /*margin: auto;
+  text-align: center;*/
+}
+
+
+.data{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-left: 12.5%;
+
+}
+
+textarea{
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.materias{
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+/*archivo novedades*/
+.Text3 h2{
+  margin-left: 38%;
+}
+
+.Text3 p {
+  text-align: center;
+}
+
+.Text3 button {
+  margin-left: 38%;
+}
+
+@media (min-width:640px){
+}
+
+@media (min-width:1000px){
+
+  *{
+    box-sizing: border-box;
+  }
+
+  header{
+
+    background-color: green;
+
+ }
+
+  header img{
+    relative position: left;
+    margin-left: 5%;
+  }
+
+  header h1{
+  float: right;
+  overflow: hidden;
+  margin-right: 37%;
+  font-size: 25px;
+  }
+
+  header li{
+  display: inline;
+  margin: auto;
+  background-color: beige;
+  }
+
+  nav{
+    margin-left: 35%;
+  }
+
+  a{
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: white;
+
+  }
+
+  ul {
+    margin: auto;
+  }
+
+
+   header a{
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+
+
+  h1, h2 {
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+/*archivo index.php*/
+.contenido{
+  width: 100%;
+}
+.Text1{
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.Text1 h2  {
+margin-left: 22%;
+}
+
+.Text1 p{
+margin-left: 17%;
+}
+/*archivo formulario.php*/
+.contacto{
+  display: block;
+  <article class="datos">
+  font-family: cursive;
+  width: 95%;
+  margin-left: 2.5% ;
+}
+.datos{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 99%;
+  margin-left: 0.5%;
+}
+
+.datos img{
+}
+.datos p{
+  width: 30%;
+  display: flex;
+  /*float:right;*/
+}
+  form{
+    width: 80%;
+    margin: auto;
+  }
+
+  .formulario{
+    background-color: orange;
+
+  }
+
+  p{
+    font-family: sans-serif;
+    /*margin: auto;
+    text-align: center;*/
+  }
+
+
+  .data{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-left: 12.5%;
+
+  }
+
+  textarea{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+  .materias{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+/*archivo us.php*/
+.Text2{
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.Text2 h2{
+  margin-left: 36%;
+}
+
+.Text2 p {
+  text-align: center;
+}
+
+.Text2 button{
+  margin-left: 45%;
+}
+
+/*archivo novedades*/
+.Text3{
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.Text3 h2 {
+ margin-left: 43%;
+}
+
+.Text3 p {
+margin-right: 7% ;
+}
+
+.Text3 button{
+  margin-left: 43%;
+}
 }
